@@ -1,0 +1,23 @@
+.bingo-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.bingo-cell {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #333;
+  text-align: center;
+  margin: 2px;
+  cursor: default;
+  user-select: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bingo-cell.checked {
+  background-color: #4caf50;
+  color: white;
+}
